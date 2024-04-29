@@ -1,0 +1,54 @@
+/* src/components/AddEmployee.css */
+
+/* Parent container to center the content */
+.add-employee-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    height: 100vh; /* Take full viewport height */
+    padding: 20px; /* Add padding */
+  }
+  
+  /* Center the form */
+  .add-employee-form {
+    max-width: 400px; /* Limit the form width for better readability */
+    width: 100%; /* Allow it to expand to the max-width */
+    background-color: #f9f9f9; /* Light background color */
+    border: 1px solid #ddd; /* Border for the form */
+    padding: 20px; /* Padding around the form */
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Light shadow for depth */
+  }
+  
+  /* Style form labels */
+  label {
+    display: block; /* Make label block-level */
+    margin-bottom: 10px; /* Add margin below the label */
+    font-weight: bold; /* Bold label text */
+  }
+  
+  /* Style form inputs */
+  input, select {
+    width: 100%; /* Make inputs full width */
+    padding: 10px; /* Add padding */
+    margin-bottom: 15px; /* Margin between inputs */
+    border: 1px solid #ccc; /* Border for inputs */
+    border-radius: 5px; /* Rounded corners */
+  }
+  
+  /* Style the submit button */
+  button {
+    background-color: #4CAF50; /* Green button color */
+    color: white; /* White text */
+    padding: 10px 20px; /* Padding */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover effect for the button */
+  button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  

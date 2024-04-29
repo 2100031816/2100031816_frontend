@@ -1,0 +1,43 @@
+/* src/components/Home.css */
+
+/* Center the container horizontally and vertically */
+.home-container {
+    display: flex; /* Use flexbox */
+    flex-direction: column; /* Arrange items vertically */
+    justify-content: center; /* Center vertically */
+    align-items: center; /* Center horizontally */
+    padding: 30px; /* Add padding */
+    height: 100vh; /* Full viewport height */
+    background-color: #f5f5f5; /* Light background for a clean look */
+  }
+  
+  /* Style for the title */
+  .home-title {
+    font-size: 32px; /* Larger font for the title */
+    color: #333; /* Dark gray color for contrast */
+    margin-bottom: 20px; /* Space below the title */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style for the introductory paragraph */
+  .home-intro {
+    font-size: 18px; /* Slightly larger font */
+    color: #666; /* Gray color for readability */
+    margin-bottom: 20px; /* Space below the intro */
+    text-align: center; /* Center-align text */
+  }
+  
+  /* Style for the features list */
+  .home-features {
+    list-style-type: none; /* Remove default list style */
+    padding: 0; /* No padding */
+    text-align: left; /* Align text to the left */
+    max-width: 600px; /* Limit the width of the list */
+    line-height: 1.6; /* Increase line spacing for readability */
+  }
+  
+  /* Style for list items */
+  .home-features li {
+    margin-bottom: 10px; /* Space between list items */
+  }
+  

@@ -1,0 +1,52 @@
+/* src/components/Navbar.css */
+
+/* Style the navbar itself */
+.navbar {
+    background-color: #333; /* Dark background for contrast */
+    padding: 10px; /* Padding around the navbar */
+    position: sticky; /* Stick to top when scrolling */
+    top: 0; /* Stay at the top */
+    z-index: 1000; /* Ensure it's above other content */
+  }
+  
+  /* Style the list within the navbar */
+  .navbar-list {
+    list-style: none; /* Remove default list styling */
+    display: flex; /* Align items horizontally */
+    justify-content: space-around; /* Even spacing */
+    align-items: center; /* Center align items vertically */
+    margin: 0; /* No margin */
+    padding: 0; /* No padding */
+  }
+  
+  /* Style individual items in the navbar */
+  .navbar-item {
+    /* Can add additional styles for individual items if needed */
+  }
+  
+  /* Style the links in the navbar */
+  .navbar-link {
+    text-decoration: none; /* Remove underline */
+    color: white; /* White text for contrast */
+    font-size: 18px; /* Larger text for readability */
+    font-weight: bold; /* Make it bold */
+    transition: color 0.3s ease; /* Smooth transition on hover */
+  }
+  
+  /* Hover effect for the links */
+  .navbar-link:hover {
+    color: #ffcc00; /* Change color on hover */
+  }
+  
+  /* Responsive design for smaller screens */
+  @media (max-width: 600px) {
+    .navbar-list {
+      flex-direction: column; /* Stack items vertically */
+      justify-content: flex-start; /* Align at the start */
+    }
+  
+    .navbar-link {
+      padding: 10px 0; /* Add padding for better touch interaction */
+    }
+  }
+  

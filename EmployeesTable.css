@@ -1,0 +1,75 @@
+/* src/components/EmployeesTable.css */
+
+/* Style for even rows (ash color) */
+.even-row {
+    background-color: #d3d3d3; /* Ash/gray color for even rows */
+  }
+  
+  /* Style for odd rows (light blue color) */
+  .odd-row {
+    background-color: #e6f7ff; /* Light blue for odd rows */
+  }
+  
+  /* Centered table */
+  .centered-table {
+    border-collapse: collapse; /* Collapse borders for a clean look */
+    text-align: center; /* Center text in cells */
+    width: 80%; /* Width of the table */
+    margin: 20px auto; /* Center horizontally */
+  }
+  
+  /* Add padding and styling to table cells */
+  td, th {
+    padding: 10px; /* Padding for table cells */
+  }
+  
+  /* Hover effect on table rows */
+  tr:hover {
+    background-color: #c0c0c0; /* Hover effect with a light gray color */
+  }
+  /* src/components/EmployeesTable.css */
+
+/* Edit button with green color */
+.edit-button {
+    background-color: #4CAF50; /* Green for Edit */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Padding for comfort */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth hover transition */
+  }
+  
+  /* Hover effect for Edit button */
+  .edit-button:hover {
+    background-color: #45a049; /* Darker green on hover */
+  }
+  
+  /* src/components/EmployeesTable.css */
+
+/* Delete button with red color */
+.delete-button {
+    background-color: #f44336; /* Red for Delete */
+    color: white; /* White text for contrast */
+    padding: 10px; /* Padding for comfort */
+    border: none; /* No border */
+    border-radius: 5px; /* Rounded corners */
+    cursor: pointer; /* Pointer cursor */
+    transition: background-color 0.3s; /* Smooth transition */
+  }
+  
+  /* Hover effect for Delete button */
+  .delete-button:hover {
+    background-color: #d32f2f; /* Darker red on hover */
+  }
+  
+  /* Highlight text on hover */
+.highlight-text {
+    cursor: pointer; /* Change cursor to pointer */
+    transition: color 0.3s; /* Smooth transition */
+  }
+  
+  .highlight-text:hover {
+    color: #ffcc00; /* Change color on hover (golden/yellow) */
+  }
+  
